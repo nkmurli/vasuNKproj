@@ -1,0 +1,14 @@
+applications:
+- buildpack: python_buildpack
+  command: gunicorn --env DJANGO_SETTINGS_MODULE=vasuapp.settings.base
+    vasuproj.wsgi -b 0.0.0.0:$PORT
+  command: sh /.run.sh
+  disk_quota: 1G
+  domain: null
+  host: null
+  instances: 1
+  memory: 128MB
+  name: vasuproj
+  routes:
+  - route: vasuproj.us-south.cf.appdomain.cloud
+  timeout: 180

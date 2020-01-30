@@ -1,0 +1,10 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/python-buildpack.git
+  command: sh run.sh
+  domain: null
+  host: null
+  memory: 128M
+  name: vasuapp
+  random-route: false
+  routes:
+  - route: vasuapp.us-south.cf.appdomain.cloud
