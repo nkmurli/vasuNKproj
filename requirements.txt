@@ -6,7 +6,7 @@ Click==7.0
 cloudant==2.4.0
 decorator==4.4.1
 dj-database-url==0.5.0
-Django==3.0.2
+Django==3.1.9
 django-filter==2.2.0
 django-jinja==2.4.1
 django-manifest==0.2.1
