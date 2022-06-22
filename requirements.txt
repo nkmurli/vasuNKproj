@@ -23,7 +23,7 @@ jsonpath-rw==1.4.0
 livereload==2.6.1
 Markdown==3.1.1
 MarkupSafe==1.1.1
-numpy==1.17.0
+numpy==1.22.0
 orderedmultidict==1.0.1
 pandas==0.25.0
 ply==3.11
